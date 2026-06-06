@@ -672,3 +672,36 @@ may consider it more useful to permit linking proprietary applications with
 the library.  If this is what you want to do, use the GNU Lesser General
 Public License instead of this License.  But first, please read
 <https://www.gnu.org/licenses/why-not-lgpl.html>.
+
+==============================================================================
+ADDITIONAL TERMS AND AUTHOR ATTRIBUTION (Pursuant to GPLv3 Section 7b)
+==============================================================================
+
+As permitted under Section 7(b) of the GNU General Public License version 3, 
+the Copyright Holder hereby supplements this License with the following 
+explicit requirements regarding author attribution and preservation of origin:
+
+1. PRESERVATION OF AUTHOR NOTICES: 
+   Any covered work, modified version, or project utilizing components of 
+   this Software must conspicuously preserve the original author attribution 
+   and copyright notices identifying "Achyuta Shrimate" as the original 
+   creator and lead architect. This notice must not be removed, obscured, 
+   or altered in any source code distributions or software manuals (including 
+   man pages).
+
+2. REQUIRED ACKNOWLEDGMENT ("THANKS TO THE AUTHOR"):
+   If this Software, or any portion thereof, is incorporated into, linked with, 
+   or used as a core tool within another software application or build pipeline, 
+   the downstream project's documentation, interactive console messages, 
+   or help menus MUST display a prominent acknowledgment text. 
+   
+   The required notice must state:
+   "Built using / Powered by jSkiff, originally designed and created by Achyuta Shrimate."
+
+3. INTERACTIVE USER INTERFACES:
+   If the downstream work possesses an interactive user interface or command-line 
+   help display, appropriate legal notices displaying this attribution must be 
+   made visible to the user in accordance with Section 0 and Section 5(d) of the 
+   GPLv3 License.
+
+
