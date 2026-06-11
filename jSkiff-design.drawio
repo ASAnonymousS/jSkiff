@@ -1,19 +1,19 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36">
   <diagram name="Page-1" id="RRkaCzey-Hmdg8RHbrl_">
-    <mxGraphModel dx="1142" dy="1007" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1285" dy="1052" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="_L8elAd2zRHlTAjXCjIf-3" edge="1" parent="1" source="_L8elAd2zRHlTAjXCjIf-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;align=center;" target="_L8elAd2zRHlTAjXCjIf-26" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="160" as="targetPoint" />
+            <mxPoint x="660" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-1" parent="1" style="rounded=0;html=1;aspect=fixed;align=center;whiteSpace=wrap;" value="User Input" vertex="1">
-          <mxGeometry height="120" width="120" x="320" y="-40" as="geometry" />
+          <mxGeometry height="120" width="120" x="600" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-4" parent="1" style="rounded=1;html=1;arcSize=11;aspect=fixed;align=center;whiteSpace=wrap;" value="Checks if the input is a command&lt;br&gt;Possible Values&lt;br&gt;init&lt;br&gt;build&lt;br&gt;run&lt;br&gt;free/remove&lt;br&gt;Flags" vertex="1">
-          <mxGeometry height="110" width="183.33" x="440" y="165" as="geometry" />
+          <mxGeometry height="110" width="183.33" x="760" y="205" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-34" edge="1" parent="1" source="_L8elAd2zRHlTAjXCjIf-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;" target="_L8elAd2zRHlTAjXCjIf-24">
           <mxGeometry relative="1" as="geometry" />
@@ -22,31 +22,31 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-8" parent="1" style="rounded=0;html=1;aspect=fixed;align=center;whiteSpace=wrap;" value="init" vertex="1">
-          <mxGeometry height="120" width="120" y="280" as="geometry" />
+          <mxGeometry height="120" width="120" x="280" y="320" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-62" edge="1" parent="1" source="_L8elAd2zRHlTAjXCjIf-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;strokeWidth=3;align=center;" target="Qmm5ZwnxzWg7dFWX0fx7-13" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-10" parent="1" style="rounded=0;html=1;aspect=fixed;align=center;whiteSpace=wrap;" value="build" vertex="1">
-          <mxGeometry height="120" width="120" x="160" y="480" as="geometry" />
+          <mxGeometry height="120" width="120" x="440" y="520" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-63" edge="1" parent="1" source="_L8elAd2zRHlTAjXCjIf-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#60a917;strokeColor=#2D7600;strokeWidth=3;align=center;" target="Qmm5ZwnxzWg7dFWX0fx7-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-12" parent="1" style="rounded=0;html=1;aspect=fixed;align=center;whiteSpace=wrap;" value="run" vertex="1">
-          <mxGeometry height="120" width="120" x="480" y="480" as="geometry" />
+          <mxGeometry height="120" width="120" x="760" y="520" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-50" edge="1" parent="1" source="_L8elAd2zRHlTAjXCjIf-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;" target="_L8elAd2zRHlTAjXCjIf-49" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-14" parent="1" style="rounded=0;html=1;aspect=fixed;align=center;whiteSpace=wrap;" value="free/remove" vertex="1">
-          <mxGeometry height="120" width="120" x="560" y="280" as="geometry" />
+          <mxGeometry height="120" width="120" x="920" y="320" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-36" edge="1" parent="1" source="_L8elAd2zRHlTAjXCjIf-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;" target="_L8elAd2zRHlTAjXCjIf-32">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-200" y="540" />
-              <mxPoint x="-200" y="220" />
+              <mxPoint x="80" y="580" />
+              <mxPoint x="80" y="260" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -64,34 +64,34 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-20" parent="1" style="rhombus;html=1;aspect=fixed;align=center;whiteSpace=wrap;" value="Optional flag &lt;br&gt;present with argument ?" vertex="1">
-          <mxGeometry height="120" width="120" x="-160" y="480" as="geometry" />
+          <mxGeometry height="120" width="120" x="120" y="520" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-35" edge="1" parent="1" source="_L8elAd2zRHlTAjXCjIf-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;" target="_L8elAd2zRHlTAjXCjIf-20" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-24" parent="1" style="rounded=1;html=1;align=center;whiteSpace=wrap;" value="Allowed:&amp;nbsp;&lt;div&gt;--name, -n &amp;lt;name&amp;gt;&lt;br&gt;--directory, -d &amp;lt;path&amp;gt;&lt;br&gt;&lt;br&gt;Argument is compulsory&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="120" x="-160" y="280" as="geometry" />
+          <mxGeometry height="120" width="120" x="120" y="320" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-27" edge="1" parent="1" source="_L8elAd2zRHlTAjXCjIf-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;align=center;" target="_L8elAd2zRHlTAjXCjIf-8">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="380" y="340" />
+              <mxPoint x="660" y="380" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-29" edge="1" parent="1" source="_L8elAd2zRHlTAjXCjIf-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;" target="_L8elAd2zRHlTAjXCjIf-10">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="380" y="440" />
-              <mxPoint x="220" y="440" />
+              <mxPoint x="660" y="480" />
+              <mxPoint x="500" y="480" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-30" edge="1" parent="1" source="_L8elAd2zRHlTAjXCjIf-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;" target="_L8elAd2zRHlTAjXCjIf-12">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="380" y="440" />
-              <mxPoint x="540" y="440" />
+              <mxPoint x="660" y="480" />
+              <mxPoint x="820" y="480" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -104,12 +104,12 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-26" parent="1" style="rhombus;html=1;align=center;whiteSpace=wrap;" value="Input Validator" vertex="1">
-          <mxGeometry height="120" width="120" x="320" y="160" as="geometry" />
+          <mxGeometry height="120" width="120" x="600" y="200" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-28" edge="1" parent="1" source="_L8elAd2zRHlTAjXCjIf-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;align=center;" target="_L8elAd2zRHlTAjXCjIf-14">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="380" y="340" />
+              <mxPoint x="660" y="380" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -119,28 +119,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-32" parent="1" style="html=1;align=center;whiteSpace=wrap;" value="Display short help menu" vertex="1">
-          <mxGeometry height="60" width="120" y="190" as="geometry" />
+          <mxGeometry height="60" width="120" x="280" y="230" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-40" parent="1" style="rounded=0;html=1;align=center;whiteSpace=wrap;" value="mkdir .jskiff at the file object&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Creation of config file named skiff.config&lt;/div&gt;&lt;div&gt;with&amp;nbsp;project &amp;lt;name&amp;gt;&lt;br&gt;= path (default)&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="120" y="680" as="geometry" />
+          <mxGeometry height="120" width="120" x="280" y="720" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-44" edge="1" parent="1" source="_L8elAd2zRHlTAjXCjIf-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;" target="_L8elAd2zRHlTAjXCjIf-40" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-41" parent="1" style="rounded=0;html=1;align=center;whiteSpace=wrap;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;file object at &amp;lt;path&amp;gt;&lt;br&gt;&lt;/span&gt;" vertex="1">
-          <mxGeometry height="120" width="120" x="-160" y="680" as="geometry" />
+          <mxGeometry height="120" width="120" x="120" y="720" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-48" edge="1" parent="1" source="_L8elAd2zRHlTAjXCjIf-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;" target="_L8elAd2zRHlTAjXCjIf-40" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-46" parent="1" style="rounded=0;html=1;aspect=fixed;align=center;whiteSpace=wrap;" value="file object at the current &amp;lt;path&amp;gt;" vertex="1">
-          <mxGeometry height="120" width="120" y="480" as="geometry" />
+          <mxGeometry height="120" width="120" x="280" y="520" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-52" edge="1" parent="1" source="_L8elAd2zRHlTAjXCjIf-49" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;" target="_L8elAd2zRHlTAjXCjIf-51" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-49" parent="1" style="rounded=1;html=1;align=center;whiteSpace=wrap;" value="Allowed:&amp;nbsp;&lt;div&gt;--purge, -p&lt;br&gt;--directory, -d &amp;lt;path&amp;gt;&lt;br&gt;&lt;br&gt;Argument is compulsory&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="120" x="720" y="280" as="geometry" />
+          <mxGeometry height="120" width="120" x="1080" y="320" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-54" edge="1" parent="1" source="_L8elAd2zRHlTAjXCjIf-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;" target="_L8elAd2zRHlTAjXCjIf-53" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -153,9 +153,9 @@
         <mxCell id="_L8elAd2zRHlTAjXCjIf-55" edge="1" parent="1" source="_L8elAd2zRHlTAjXCjIf-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;" target="_L8elAd2zRHlTAjXCjIf-32">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="880" y="540" />
-              <mxPoint x="880" y="120" />
-              <mxPoint x="60" y="120" />
+              <mxPoint x="1240" y="580" />
+              <mxPoint x="1240" y="160" />
+              <mxPoint x="340" y="160" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -165,10 +165,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-51" parent="1" style="rhombus;html=1;aspect=fixed;align=center;whiteSpace=wrap;" value="Optional flag &lt;br&gt;present with argument ?" vertex="1">
-          <mxGeometry height="120" width="120" x="720" y="480" as="geometry" />
+          <mxGeometry height="120" width="120" x="1080" y="520" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-53" parent="1" style="rounded=0;html=1;align=center;whiteSpace=wrap;" value="&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;file object retrieved from .jskiff folder&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;Deletion of .jskiff folder&lt;/span&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="120" x="720" y="680" as="geometry" />
+          <mxGeometry height="120" width="120" x="1080" y="720" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-65" edge="1" parent="1" source="_L8elAd2zRHlTAjXCjIf-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;" target="_L8elAd2zRHlTAjXCjIf-64" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -187,56 +187,53 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-61" parent="1" style="rhombus;html=1;rounded=0;aspect=fixed;align=center;whiteSpace=wrap;" value="hash file exists ?" vertex="1">
-          <mxGeometry height="120" width="120" x="320" y="840" as="geometry" />
+          <mxGeometry height="120" width="120" x="600" y="920" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-70" edge="1" parent="1" source="_L8elAd2zRHlTAjXCjIf-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;" target="_L8elAd2zRHlTAjXCjIf-69" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-64" parent="1" style="html=1;rounded=0;align=center;whiteSpace=wrap;" value="Make file object reference hash file inside .jskiff and add the path to skiff.config file&amp;nbsp;" vertex="1">
-          <mxGeometry height="120" width="120" x="120" y="1040" as="geometry" />
+          <mxGeometry height="120" width="120" x="400" y="1120" as="geometry" />
         </mxCell>
         <mxCell id="D8js0SttXVh86KWsJFss-22" edge="1" parent="1" source="_L8elAd2zRHlTAjXCjIf-67" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_L8elAd2zRHlTAjXCjIf-61">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-67" parent="1" style="rounded=0;html=1;align=center;whiteSpace=wrap;" value="file object reference skiff.config file" vertex="1">
-          <mxGeometry height="120" width="120" x="320" y="680" as="geometry" />
+          <mxGeometry height="120" width="120" x="600" y="720" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-72" edge="1" parent="1" source="_L8elAd2zRHlTAjXCjIf-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;align=center;" target="_L8elAd2zRHlTAjXCjIf-71" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-69" parent="1" style="html=1;rounded=0;align=center;whiteSpace=wrap;" value="Record to store hash&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&amp;lt;file-path&amp;gt; &amp;lt;sha-256&amp;gt;&lt;br&gt;&amp;lt;file-path&amp;gt; &amp;lt;sha-256&amp;gt;&lt;/div&gt;&lt;div&gt;&amp;lt;file-path&amp;gt; &amp;lt;sha-256&amp;gt;&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="120" x="120" y="1240" as="geometry" />
+          <mxGeometry height="120" width="120" x="400" y="1320" as="geometry" />
         </mxCell>
         <mxCell id="D8js0SttXVh86KWsJFss-12" edge="1" parent="1" source="_L8elAd2zRHlTAjXCjIf-71" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D8js0SttXVh86KWsJFss-11" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-71" parent="1" style="html=1;rounded=0;align=center;whiteSpace=wrap;" value="Create new hash file from file object and then write the Record to it" vertex="1">
-          <mxGeometry height="120" width="120" x="120" y="1640" as="geometry" />
-        </mxCell>
-        <mxCell id="D8js0SttXVh86KWsJFss-1" parent="1" style="rounded=1;html=1;fillColor=#e51400;fontColor=#ffffff;strokeColor=#B20000;align=center;whiteSpace=wrap;" value="A bit of dilemma whether to store it in txt or as a java object file" vertex="1">
-          <mxGeometry height="120" width="120" x="-321" y="840" as="geometry" />
+          <mxGeometry height="120" width="120" x="400" y="1720" as="geometry" />
         </mxCell>
         <mxCell id="D8js0SttXVh86KWsJFss-15" edge="1" parent="1" source="D8js0SttXVh86KWsJFss-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D8js0SttXVh86KWsJFss-14" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D8js0SttXVh86KWsJFss-4" parent="1" style="html=1;rounded=0;align=center;whiteSpace=wrap;" value="Make file object reference hash file inside .jskiff from the path provided in the skiff.config file" vertex="1">
-          <mxGeometry height="120" width="120" x="320" y="1040" as="geometry" />
+          <mxGeometry height="120" width="120" x="600" y="1120" as="geometry" />
         </mxCell>
         <mxCell id="D8js0SttXVh86KWsJFss-13" edge="1" parent="1" source="D8js0SttXVh86KWsJFss-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="D8js0SttXVh86KWsJFss-11">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D8js0SttXVh86KWsJFss-9" parent="1" style="html=1;rounded=0;align=center;whiteSpace=wrap;" value="&lt;div&gt;Overwrite the already written file object with new changes made.&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="120" x="320" y="1640" as="geometry" />
+          <mxGeometry height="120" width="120" x="600" y="1720" as="geometry" />
         </mxCell>
-        <mxCell id="D8js0SttXVh86KWsJFss-28" edge="1" parent="1" source="D8js0SttXVh86KWsJFss-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D8js0SttXVh86KWsJFss-27" value="">
+        <mxCell id="kUUIiqGxWrQIOyBqX_BW-5" edge="1" parent="1" source="D8js0SttXVh86KWsJFss-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DWGIw0IIuDlJqxq0uWgz-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D8js0SttXVh86KWsJFss-11" parent="1" style="html=1;rounded=0;align=center;whiteSpace=wrap;" value="&lt;div&gt;Add the files changed into recompile list&lt;br&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Importantly we need to check files that depend on changed file so that we can add them to the list&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="120" x="220" y="1840" as="geometry" />
+          <mxGeometry height="120" width="120" x="500" y="1920" as="geometry" />
         </mxCell>
         <mxCell id="D8js0SttXVh86KWsJFss-19" edge="1" parent="1" source="D8js0SttXVh86KWsJFss-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D8js0SttXVh86KWsJFss-20" value="">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="380" y="1440" as="targetPoint" />
+            <mxPoint x="660" y="1520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="D8js0SttXVh86KWsJFss-23" connectable="0" parent="D8js0SttXVh86KWsJFss-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];horizontal=0;fontColor=light-dark(#000000,#FF0000);" value="&lt;font style=&quot;color: light-dark(rgb(0, 0, 0), rgb(0, 255, 0));&quot;&gt;True&lt;/font&gt;" vertex="1">
@@ -247,10 +244,10 @@
         <mxCell id="DWGIw0IIuDlJqxq0uWgz-9" edge="1" parent="1" source="D8js0SttXVh86KWsJFss-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DWGIw0IIuDlJqxq0uWgz-7">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="560" y="1300" />
-              <mxPoint x="560" y="2500" />
+              <mxPoint x="840" y="1380" />
+              <mxPoint x="840" y="2580" />
             </Array>
-            <mxPoint x="400" y="2450" as="targetPoint" />
+            <mxPoint x="680" y="2530" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DWGIw0IIuDlJqxq0uWgz-10" connectable="0" parent="DWGIw0IIuDlJqxq0uWgz-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#000000,#FF0000);" value="False" vertex="1">
@@ -259,33 +256,40 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="D8js0SttXVh86KWsJFss-14" parent="1" style="rhombus;html=1;rounded=0;aspect=fixed;align=center;whiteSpace=wrap;" value="hash changes&amp;nbsp;&lt;div&gt;exist ?&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="120" x="320" y="1240" as="geometry" />
+          <mxGeometry height="120" width="120" x="600" y="1320" as="geometry" />
         </mxCell>
         <mxCell id="D8js0SttXVh86KWsJFss-21" edge="1" parent="1" source="D8js0SttXVh86KWsJFss-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="D8js0SttXVh86KWsJFss-9" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="D8js0SttXVh86KWsJFss-20" parent="1" style="html=1;rounded=0;align=center;whiteSpace=wrap;" value="Record changed hash file details in order&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&amp;lt;file-path&amp;gt; &amp;lt;sha-256&amp;gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="120" x="320" y="1440" as="geometry" />
+          <mxGeometry height="120" width="120" x="600" y="1520" as="geometry" />
         </mxCell>
-        <mxCell id="DWGIw0IIuDlJqxq0uWgz-2" edge="1" parent="1" source="D8js0SttXVh86KWsJFss-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DWGIw0IIuDlJqxq0uWgz-1" value="">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="DWGIw0IIuDlJqxq0uWgz-3" connectable="0" parent="DWGIw0IIuDlJqxq0uWgz-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#000000,#FF0000);horizontal=0;" value="False" vertex="1">
-          <mxGeometry relative="1" x="-0.1284" as="geometry">
-            <mxPoint as="offset" />
+        <mxCell id="DWGIw0IIuDlJqxq0uWgz-12" edge="1" parent="1" source="D8js0SttXVh86KWsJFss-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kUUIiqGxWrQIOyBqX_BW-13" value="">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="820" y="920.0000000000002" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="DWGIw0IIuDlJqxq0uWgz-12" edge="1" parent="1" source="D8js0SttXVh86KWsJFss-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DWGIw0IIuDlJqxq0uWgz-11" value="">
+        <mxCell id="XWM_SaW0I9FZybDSj1vM-3" connectable="0" parent="DWGIw0IIuDlJqxq0uWgz-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#000000,#00FF00);" value="True" vertex="1">
+          <mxGeometry relative="1" x="-0.0373" y="1" as="geometry">
+            <mxPoint x="-2" y="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUUIiqGxWrQIOyBqX_BW-11" edge="1" parent="1" source="D8js0SttXVh86KWsJFss-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kUUIiqGxWrQIOyBqX_BW-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="kUUIiqGxWrQIOyBqX_BW-12" connectable="0" parent="kUUIiqGxWrQIOyBqX_BW-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#000000,#FF0000);" value="False" vertex="1">
+          <mxGeometry relative="1" x="-0.5963" y="-2" as="geometry">
+            <mxPoint x="42" y="-2" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="D8js0SttXVh86KWsJFss-27" parent="1" style="rhombus;whiteSpace=wrap;html=1;rounded=0;aspect=fixed;" value="External dependencies ?" vertex="1">
-          <mxGeometry height="120" width="120" x="220" y="2040" as="geometry" />
+          <mxGeometry height="120" width="120" x="760" y="720" as="geometry" />
         </mxCell>
         <mxCell id="DWGIw0IIuDlJqxq0uWgz-8" edge="1" parent="1" source="DWGIw0IIuDlJqxq0uWgz-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DWGIw0IIuDlJqxq0uWgz-7" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="DWGIw0IIuDlJqxq0uWgz-1" parent="1" style="whiteSpace=wrap;html=1;rounded=0;" value="Recompile the classes in the list without any extra parameters like:&lt;br&gt;&lt;br&gt;-class-path&lt;div&gt;-module-path&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="120" x="220" y="2240" as="geometry" />
+          <mxGeometry height="120" width="120" x="500" y="2120" as="geometry" />
         </mxCell>
         <mxCell id="DWGIw0IIuDlJqxq0uWgz-16" edge="1" parent="1" source="DWGIw0IIuDlJqxq0uWgz-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#0050ef;strokeColor=#001DBC;strokeWidth=3;" target="DWGIw0IIuDlJqxq0uWgz-15" value="">
           <mxGeometry relative="1" as="geometry" />
@@ -303,38 +307,46 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="DWGIw0IIuDlJqxq0uWgz-18" edge="1" parent="1" source="DWGIw0IIuDlJqxq0uWgz-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Qmm5ZwnxzWg7dFWX0fx7-7" value="">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="361" y="2580" />
+              <mxPoint x="760" y="2580" />
+            </Array>
+            <mxPoint x="220" y="2380" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="DWGIw0IIuDlJqxq0uWgz-20" connectable="0" parent="DWGIw0IIuDlJqxq0uWgz-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#000000,#FF0000);horizontal=1;" value="False" vertex="1">
+          <mxGeometry relative="1" x="0.0837" y="2" as="geometry">
+            <mxPoint x="-145" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="DWGIw0IIuDlJqxq0uWgz-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;aspect=fixed;" value="Is command run ?" vertex="1">
-          <mxGeometry height="120" width="120" x="220" y="2440" as="geometry" />
+          <mxGeometry height="120" width="120" x="500" y="2320" as="geometry" />
         </mxCell>
-        <mxCell id="DWGIw0IIuDlJqxq0uWgz-11" parent="1" style="whiteSpace=wrap;html=1;rounded=0;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Explore the&amp;nbsp;&lt;div&gt;-class-path&amp;nbsp;&lt;/div&gt;&lt;div&gt;and&amp;nbsp;&lt;/div&gt;&lt;div&gt;-module-path&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;Options in javac&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="120" x="21" y="2040" as="geometry" />
-        </mxCell>
-        <mxCell id="DWGIw0IIuDlJqxq0uWgz-18" edge="1" parent="1" source="DWGIw0IIuDlJqxq0uWgz-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="DWGIw0IIuDlJqxq0uWgz-17" value="">
+        <mxCell id="kUUIiqGxWrQIOyBqX_BW-2" edge="1" parent="1" source="DWGIw0IIuDlJqxq0uWgz-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Qmm5ZwnxzWg7dFWX0fx7-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="DWGIw0IIuDlJqxq0uWgz-20" connectable="0" parent="DWGIw0IIuDlJqxq0uWgz-18" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#000000,#FF0000);" value="False" vertex="1">
-          <mxGeometry relative="1" x="0.0837" y="2" as="geometry">
-            <mxPoint y="-2" as="offset" />
+        <mxCell id="kUUIiqGxWrQIOyBqX_BW-3" connectable="0" parent="kUUIiqGxWrQIOyBqX_BW-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];horizontal=0;fontColor=light-dark(#000000,#00FF00);" value="True" vertex="1">
+          <mxGeometry relative="1" x="-0.0363" y="-1" as="geometry">
+            <mxPoint x="1" y="5" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="DWGIw0IIuDlJqxq0uWgz-15" parent="1" style="rhombus;whiteSpace=wrap;html=1;aspect=fixed;" value="Is optional flag present ?" vertex="1">
-          <mxGeometry height="120" width="120" x="21" y="2440" as="geometry" />
-        </mxCell>
-        <mxCell id="DWGIw0IIuDlJqxq0uWgz-17" parent="1" style="whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Exit Code - 0&lt;br&gt;&lt;br&gt;Success" vertex="1">
-          <mxGeometry height="120" width="120" x="-180" y="2440" as="geometry" />
+          <mxGeometry height="120" width="120" x="301" y="2320" as="geometry" />
         </mxCell>
         <mxCell id="Qmm5ZwnxzWg7dFWX0fx7-6" edge="1" parent="1" source="Qmm5ZwnxzWg7dFWX0fx7-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Qmm5ZwnxzWg7dFWX0fx7-5" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qmm5ZwnxzWg7dFWX0fx7-1" parent="1" style="whiteSpace=wrap;html=1;" value="Now run the project using the main class location inside the skiff.config" vertex="1">
-          <mxGeometry height="120" width="120" x="220" y="2640" as="geometry" />
+          <mxGeometry height="120" width="120" x="500" y="2520" as="geometry" />
         </mxCell>
         <mxCell id="Qmm5ZwnxzWg7dFWX0fx7-8" edge="1" parent="1" source="Qmm5ZwnxzWg7dFWX0fx7-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Qmm5ZwnxzWg7dFWX0fx7-7" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="Qmm5ZwnxzWg7dFWX0fx7-9" connectable="0" parent="Qmm5ZwnxzWg7dFWX0fx7-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#000000,#FF0000);" value="False" vertex="1">
           <mxGeometry relative="1" x="0.0095" y="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Qmm5ZwnxzWg7dFWX0fx7-11" edge="1" parent="1" source="Qmm5ZwnxzWg7dFWX0fx7-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="Qmm5ZwnxzWg7dFWX0fx7-10" value="">
@@ -342,23 +354,60 @@
         </mxCell>
         <mxCell id="Qmm5ZwnxzWg7dFWX0fx7-12" connectable="0" parent="Qmm5ZwnxzWg7dFWX0fx7-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=light-dark(#000000,#00FF00);" value="True" vertex="1">
           <mxGeometry relative="1" x="-0.075" y="1" as="geometry">
-            <mxPoint y="1" as="offset" />
+            <mxPoint x="3" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Qmm5ZwnxzWg7dFWX0fx7-5" parent="1" style="rhombus;whiteSpace=wrap;html=1;aspect=fixed;" value="Is optional flag present ?" vertex="1">
-          <mxGeometry height="120" width="120" x="220" y="2840" as="geometry" />
+          <mxGeometry height="120" width="120" x="500" y="2720" as="geometry" />
         </mxCell>
         <mxCell id="Qmm5ZwnxzWg7dFWX0fx7-7" parent="1" style="whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Exit Code - 0&lt;br&gt;&lt;br&gt;Success" vertex="1">
-          <mxGeometry height="120" width="120" x="21" y="2840" as="geometry" />
+          <mxGeometry height="120" width="120" x="700" y="2720" as="geometry" />
         </mxCell>
-        <mxCell id="Qmm5ZwnxzWg7dFWX0fx7-10" parent="1" style="whiteSpace=wrap;html=1;" value="Watcher objects created for setting keeping track of files being changed." vertex="1">
-          <mxGeometry height="120" width="120" x="420" y="2840" as="geometry" />
+        <mxCell id="Qmm5ZwnxzWg7dFWX0fx7-10" parent="1" style="whiteSpace=wrap;html=1;fillColor=#0050ef;fontColor=#ffffff;strokeColor=#001DBC;" value="Watcher objects created for setting keeping track of files being changed." vertex="1">
+          <mxGeometry height="120" width="120" x="160" y="2720" as="geometry" />
         </mxCell>
         <mxCell id="Qmm5ZwnxzWg7dFWX0fx7-15" edge="1" parent="1" source="Qmm5ZwnxzWg7dFWX0fx7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="_L8elAd2zRHlTAjXCjIf-67" value="">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="kUUIiqGxWrQIOyBqX_BW-6" edge="1" parent="1" source="Qmm5ZwnxzWg7dFWX0fx7-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="D8js0SttXVh86KWsJFss-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="660" y="680" />
+              <mxPoint x="820" y="680" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kUUIiqGxWrQIOyBqX_BW-7" connectable="0" parent="kUUIiqGxWrQIOyBqX_BW-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="Virtual Thread - Dependency" vertex="1">
+          <mxGeometry relative="1" x="-0.0771" y="1" as="geometry">
+            <mxPoint x="9" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="Qmm5ZwnxzWg7dFWX0fx7-13" parent="1" style="rounded=1;html=1;align=center;whiteSpace=wrap;" value="Allowed:&amp;nbsp;&lt;div&gt;--watch, -w&lt;br&gt;&lt;br&gt;Argument is compulsory&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="120" x="320" y="480" as="geometry" />
+          <mxGeometry height="120" width="120" x="600" y="520" as="geometry" />
+        </mxCell>
+        <mxCell id="kUUIiqGxWrQIOyBqX_BW-10" parent="1" style="whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="Exit Dependency Thread Code - 0&lt;br&gt;&lt;br&gt;Success" vertex="1">
+          <mxGeometry height="120" width="120" x="920" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="kUUIiqGxWrQIOyBqX_BW-15" edge="1" parent="1" source="kUUIiqGxWrQIOyBqX_BW-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kUUIiqGxWrQIOyBqX_BW-14" value="">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kUUIiqGxWrQIOyBqX_BW-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Parse .skiff/config to find the class-path and module-path libraries" vertex="1">
+          <mxGeometry height="120" width="120" x="760" y="920" as="geometry" />
+        </mxCell>
+        <mxCell id="kUUIiqGxWrQIOyBqX_BW-16" edge="1" parent="1" source="kUUIiqGxWrQIOyBqX_BW-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" target="kUUIiqGxWrQIOyBqX_BW-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kUUIiqGxWrQIOyBqX_BW-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Append the above using a StringBuffer or StringBuilder and then finally pass it back to the Main thread" vertex="1">
+          <mxGeometry height="120" width="120" x="760" y="1120" as="geometry" />
+        </mxCell>
+        <mxCell id="kUUIiqGxWrQIOyBqX_BW-17" parent="1" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;legacyAnchorPoints=0;" value="" vertex="1">
+          <mxGeometry height="2840" width="20" x="1340" as="geometry" />
+        </mxCell>
+        <mxCell id="kUUIiqGxWrQIOyBqX_BW-18" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="This is version 0.x.x" vertex="1">
+          <mxGeometry height="30" width="120" x="1360" y="1405" as="geometry" />
+        </mxCell>
+        <mxCell id="kUUIiqGxWrQIOyBqX_BW-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="This discovery should be automated by version 1.x.x" vertex="1">
+          <mxGeometry height="60" width="120" x="760" y="1240" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
