@@ -3,7 +3,9 @@ package input;
 import java.util.Set;
 import java.util.Arrays;
 import java.util.stream.Collectors;
+import java.util.stream.Stream;
 import java.util.LinkedHashSet;
+import java.util.List;
 import java.util.LinkedList;
 
 public class InputValidatorImplementation implements InputValidator{
@@ -12,54 +14,90 @@ public class InputValidatorImplementation implements InputValidator{
 																			.map(Commands::toString)
 																			.map(String::toLowerCase)
 																			.collect(Collectors.toCollection(LinkedHashSet::new)));
-	private final Set<String> optionalArguments = new LinkedHashSet<String>();
+	private final Set<String> optionalArguments = new LinkedHashSet<String>(Stream.concat(Arrays.stream(OptionalArguments.values())
+																								.map(OptionalArguments::getShortForm),
+																							Arrays.stream(OptionalArguments.values())
+																								.map(OptionalArguments::getFullForm))
+																					.collect(Collectors.toCollection(LinkedHashSet::new)));
 	
 	public InputValidatorImplementation(Input input) {
 		this.input = input;
 	}
 	
 	@Override
-	public int[] commandToIntegerParser() {
+	public Object[] commandToIntegerParser() {
 		// TODO Auto-generated method stub
-		LinkedList<Integer> parsedResult = new LinkedList<>();
+		List<Object> parsedResult = new LinkedList<>();
 		
-		boolean isCommandFirstInput = isCommandFirstInput();
-		boolean isOptionalArgumentPresent = isOptionalArgumentPresent();
+		int isCommandFirstInputOrGlobalArgument = isCommandFirstInputOrGlobalArgument();
 		
-		if(!isCommandFirstInput)
-			return null;
-		else {
-			Commands command = Commands.valueOf(input.args()[0].toUpperCase());
-			parsedResult.add(command.getCommandValue());
-			
-			return parsedResult.stream()
-					.mapToInt(Integer::intValue)
+		return switch (isCommandFirstInputOrGlobalArgument) {
+		case 0: {
+			Commands commands = Commands.valueOf(input.args()[0].toUpperCase());
+			parsedResult.add(commands.getCommandValue());
+
+			List<Object> optionalArguments= new LinkedList<>();
+			for(int i = 1; i<input.args().length; i++)
+			{
+				if(OptionalArguments.reverseMapper(input.args()[i]) != null) {
+					OptionalArguments currentArgument = OptionalArguments.reverseMapper(input.args()[i]);
+					optionalArguments.add(currentArgument.getOptionalArgumentValue());
+					if(currentArgument.isArgumentRequired() && ++i < input.args().length)
+						optionalArguments.add(input.args()[i]);
+					else
+						yield null;
+				}
+			}
+
+			yield Stream.concat(parsedResult.stream(), optionalArguments.stream())
 					.toArray();
 		}
+		case 1: {
+			OptionalArguments optionalArguments = OptionalArguments.reverseMapper(input.args()[0]);
+			parsedResult.add(optionalArguments.getOptionalArgumentValue());
+			
+			yield parsedResult.stream()
+					.toArray();
+		}
+		default:
+			yield null;
+		};
 	}
 
 	private boolean isSingleCommandPresent() {
 		// TODO Auto-generated method stub
 		boolean singleCommand = false;
 		for(String input : input.args())
-			if(commands.contains(input) && !singleCommand)
-				singleCommand = true;
-			else
-				return false;
+			if(commands.contains(input))
+			{
+				if(!singleCommand)
+					singleCommand = true;
+				else
+					return false;
+			}
 		return singleCommand;
 	}
 
 	private boolean isOptionalArgumentPresent() {
 		// TODO Auto-generated method stub
 		for(String input : input.args())
-			if(commands.contains(input))
+			if(optionalArguments.contains(input))
 				return true;
 		return false;
 	}
 	
-	private boolean isCommandFirstInput() {
-		if(isSingleCommandPresent() && commands.contains(input.args()[0]))
+	private boolean isGlobalArgumet(String globalArgument) {
+		OptionalArguments optionalArguments = OptionalArguments.reverseMapper(globalArgument.toLowerCase());
+		if(optionalArguments.isCommandRequired() == false && optionalArguments.isArgumentRequired() == false)
 			return true;
 		return false;
+	}
+	
+	private int isCommandFirstInputOrGlobalArgument() {
+		if(isSingleCommandPresent() && commands.contains(input.args()[0]))
+			return 0;
+		else if(isOptionalArgumentPresent() && isGlobalArgumet(input.args()[0]))
+			return 1;
+		return 2;
 	}
 }

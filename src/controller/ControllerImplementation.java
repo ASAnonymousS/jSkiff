@@ -17,11 +17,16 @@ public class ControllerImplementation implements Controller{
 	public String isInputValid() {
 		InputValidator inputValidator = new InputValidatorImplementation(input);
 		try{
-			int[] input = inputValidator.commandToIntegerParser();
-			System.out.println(Arrays.toString(input));
+			Object[] input = inputValidator.commandToIntegerParser();
+			if(input != null){
+				System.out.println(Arrays.toString(input));
+			}
+			else {
+				System.out.println("Help Menu");
+			}
 			
-		}catch (NullPointerException e) {
-			System.out.println("Help Menu");
+		}catch (Exception e) {
+			e.printStackTrace();
 		}
 		return null;
 	}

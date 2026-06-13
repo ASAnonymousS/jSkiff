@@ -4,5 +4,5 @@ public interface InputValidator {
 //	boolean isSingleCommandPresent();
 //	boolean isOptionalArgumentPresent();
 	
-	int[] commandToIntegerParser();
+	Object[] commandToIntegerParser();
 }
