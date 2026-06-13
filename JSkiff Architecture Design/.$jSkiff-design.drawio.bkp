@@ -1,6 +1,6 @@
 <mxfile host="Electron" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/29.5.2 Chrome/142.0.7444.265 Electron/39.6.1 Safari/537.36">
   <diagram name="Page-1" id="RRkaCzey-Hmdg8RHbrl_">
-    <mxGraphModel dx="1330" dy="822" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1074" dy="664" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -103,7 +103,7 @@
             <mxPoint y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_L8elAd2zRHlTAjXCjIf-26" parent="1" style="rhombus;html=1;align=center;whiteSpace=wrap;" value="Input Validator" vertex="1">
+        <mxCell id="_L8elAd2zRHlTAjXCjIf-26" parent="1" style="rhombus;html=1;align=center;whiteSpace=wrap;" value="Input Validator&lt;div&gt;&amp;amp;&lt;/div&gt;&lt;div&gt;Input Parser&lt;/div&gt;" vertex="1">
           <mxGeometry height="120" width="120" x="600" y="200" as="geometry" />
         </mxCell>
         <mxCell id="_L8elAd2zRHlTAjXCjIf-28" edge="1" parent="1" source="_L8elAd2zRHlTAjXCjIf-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;align=center;" target="_L8elAd2zRHlTAjXCjIf-14">
@@ -408,6 +408,9 @@
         </mxCell>
         <mxCell id="kUUIiqGxWrQIOyBqX_BW-19" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="This discovery should be automated by version 1.x.x" vertex="1">
           <mxGeometry height="60" width="120" x="760" y="1240" as="geometry" />
+        </mxCell>
+        <mxCell id="1pAaF0LTkKSIikwXOGew-1" parent="1" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.tick;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="" vertex="1">
+          <mxGeometry height="55" width="46.75" x="690" y="175" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
