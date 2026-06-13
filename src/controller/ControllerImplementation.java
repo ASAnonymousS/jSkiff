@@ -2,6 +2,7 @@ package controller;
 
 import java.util.Arrays;
 
+import help.HelpMenu;
 import input.Input;
 import input.InputValidator;
 import input.InputValidatorImplementation;
@@ -19,10 +20,12 @@ public class ControllerImplementation implements Controller{
 		try{
 			Object[] input = inputValidator.commandToIntegerParser();
 			if(input != null){
-				System.out.println(Arrays.toString(input));
+				if((int)input[0] == 5) {
+					HelpMenu.displayManualPage();
+				}
 			}
 			else {
-				System.out.println("Help Menu");
+				HelpMenu.displayShortHelpMenu();
 			}
 			
 		}catch (Exception e) {

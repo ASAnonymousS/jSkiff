@@ -4,7 +4,8 @@ public enum Commands {
 	INIT(1,true),
 	BUILD(2,true),
 	RUN(3,true),
-	FREE(4,true);
+	FREE(4,true),
+	MAN(5,false);
 	
 	private final int commandValue;
 	private final boolean optionalArgumentsAllowed;

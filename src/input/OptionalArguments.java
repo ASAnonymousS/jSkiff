@@ -3,7 +3,7 @@ package input;
 public enum OptionalArguments {
 	HELP("-h","--help",false,false,11),
 	VERSION("-v","--version",false,false,12),
-	NAME("-n","--name",false,true,13),
+	NAME("-n","--name",true,true,13),
 	DIRECTORY("-d","--directory",true,true,14),
 	WATCHABLE("-w","--watch",true,false,15);
 	
