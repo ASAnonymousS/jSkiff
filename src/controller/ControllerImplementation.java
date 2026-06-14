@@ -1,28 +1,25 @@
 package controller;
 
-import java.util.Arrays;
-
-import help.HelpMenu;
+import flags.global.HelpMenu;
 import input.Input;
 import input.InputValidator;
 import input.InputValidatorImplementation;
 
 public class ControllerImplementation implements Controller{
 	Input input;
+	Object[] parsedInput;
 	
 	public ControllerImplementation(String[] args) {
 		input = new Input(args);
 	}
 
 	@Override
-	public String isInputValid() {
+	public void isInputValid() {
 		InputValidator inputValidator = new InputValidatorImplementation(input);
 		try{
 			Object[] input = inputValidator.commandToIntegerParser();
 			if(input != null){
-				if((int)input[0] == 5) {
-					HelpMenu.displayManualPage();
-				}
+				parsedInput = input;
 			}
 			else {
 				HelpMenu.displayShortHelpMenu();
@@ -31,6 +28,5 @@ public class ControllerImplementation implements Controller{
 		}catch (Exception e) {
 			e.printStackTrace();
 		}
-		return null;
 	}
 }
