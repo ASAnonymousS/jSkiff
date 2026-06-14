@@ -1,25 +1,25 @@
 package input;
 
-public enum OptionalArguments {
-	HELP("-h","--help",false,false,11),
-	VERSION("-v","--version",false,false,12),
-	NAME("-n","--name",true,true,13),
-	DIRECTORY("-d","--directory",true,true,14),
-	WATCHABLE("-w","--watch",true,false,15);
+enum Flags {
+	HELP("-h","--help",false,false,21),
+	VERSION("-v","--version",false,false,22),
+	NAME("-n","--name",true,true,41),
+	DIRECTORY("-d","--directory",true,true,42),
+	WATCHABLE("-w","--watch",true,false,61);
 	
 	private final String shortForm;
 	private final String fullForm;
 	private final boolean isCommandRequired;
 	private final boolean isArgumentRequired;
-	private final int optionalArgumentValue;
+	private final int flagValue;
 
-	private OptionalArguments(String shortForm, String fullForm, boolean isCommandRequired, boolean isArgumentRequired,
-			int optionalArgumentValue) {
+	private Flags(String shortForm, String fullForm, boolean isCommandRequired, boolean isArgumentRequired,
+			int flagValue) {
 		this.shortForm = shortForm;
 		this.fullForm = fullForm;
 		this.isCommandRequired = isCommandRequired;
 		this.isArgumentRequired = isArgumentRequired;
-		this.optionalArgumentValue = optionalArgumentValue;
+		this.flagValue = flagValue;
 	}
 
 	public String getShortForm() {
@@ -41,10 +41,10 @@ public enum OptionalArguments {
 
 
 	public int getOptionalArgumentValue() {
-		return optionalArgumentValue;
+		return flagValue;
 	}
 	
-	public static OptionalArguments reverseMapper(String shortOrLongForm) {
+	public static Flags reverseMapper(String shortOrLongForm) {
 		return switch (shortOrLongForm) {
 		case "-h", "--help":
 			yield HELP;

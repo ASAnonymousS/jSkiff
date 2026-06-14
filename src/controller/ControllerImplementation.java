@@ -1,6 +1,6 @@
 package controller;
 
-import flags.global.HelpMenu;
+import flags.global.Help;
 import input.Input;
 import input.InputValidator;
 import input.InputValidatorImplementation;
@@ -22,7 +22,7 @@ public class ControllerImplementation implements Controller{
 				parsedInput = input;
 			}
 			else {
-				HelpMenu.displayShortHelpMenu();
+				Help.displayShortHelpMenu();
 			}
 			
 		}catch (Exception e) {

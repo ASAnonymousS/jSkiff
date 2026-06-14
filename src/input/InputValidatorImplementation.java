@@ -14,11 +14,11 @@ public class InputValidatorImplementation implements InputValidator{
 																			.map(Commands::toString)
 																			.map(String::toLowerCase)
 																			.collect(Collectors.toCollection(LinkedHashSet::new)));
-	private final Set<String> optionalArguments = new LinkedHashSet<String>(Stream.concat(Arrays.stream(OptionalArguments.values())
-																								.map(OptionalArguments::getShortForm),
-																							Arrays.stream(OptionalArguments.values())
-																								.map(OptionalArguments::getFullForm))
-																					.collect(Collectors.toCollection(LinkedHashSet::new)));
+	private final Set<String> optionalArguments = new LinkedHashSet<String>(Stream.concat(Arrays.stream(Flags.values())
+																								.map(Flags::getShortForm),
+																						  Arrays.stream(Flags.values())
+																								.map(Flags::getFullForm))
+																						  .collect(Collectors.toCollection(LinkedHashSet::new)));
 	
 	public InputValidatorImplementation(Input input) {
 		this.input = input;
@@ -39,8 +39,8 @@ public class InputValidatorImplementation implements InputValidator{
 			List<Object> optionalArguments= new LinkedList<>();
 			for(int i = 1; i<input.args().length; i++)
 			{
-				if(OptionalArguments.reverseMapper(input.args()[i]) != null) {
-					OptionalArguments currentArgument = OptionalArguments.reverseMapper(input.args()[i]);
+				if(Flags.reverseMapper(input.args()[i]) != null) {
+					Flags currentArgument = Flags.reverseMapper(input.args()[i]);
 					optionalArguments.add(currentArgument.getOptionalArgumentValue());
 					if(currentArgument.isArgumentRequired() && ++i < input.args().length)
 						optionalArguments.add(input.args()[i]);
@@ -53,7 +53,7 @@ public class InputValidatorImplementation implements InputValidator{
 					.toArray();
 		}
 		case 1: {
-			OptionalArguments optionalArguments = OptionalArguments.reverseMapper(input.args()[0]);
+			Flags optionalArguments = Flags.reverseMapper(input.args()[0]);
 			parsedResult.add(optionalArguments.getOptionalArgumentValue());
 			
 			yield parsedResult.stream()
@@ -87,7 +87,7 @@ public class InputValidatorImplementation implements InputValidator{
 	}
 	
 	private boolean isGlobalArgumet(String globalArgument) {
-		OptionalArguments optionalArguments = OptionalArguments.reverseMapper(globalArgument.toLowerCase());
+		Flags optionalArguments = Flags.reverseMapper(globalArgument.toLowerCase());
 		if(optionalArguments.isCommandRequired() == false && optionalArguments.isArgumentRequired() == false)
 			return true;
 		return false;

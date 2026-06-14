@@ -1,6 +1,6 @@
 package input;
 
-public enum Commands {
+enum Commands {
 	INIT(1,true),
 	BUILD(2,true),
 	RUN(3,true),
