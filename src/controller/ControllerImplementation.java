@@ -22,7 +22,7 @@ public class ControllerImplementation implements Controller{
 				parsedInput = input;
 			}
 			else {
-				Help.displayShortHelpMenu();
+				new Help().run();
 			}
 			
 		}catch (Exception e) {

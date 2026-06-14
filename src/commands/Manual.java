@@ -1,7 +1,9 @@
 package commands;
 
-public class Manual {
-	final static String UNIX_MAN_PAGE = """
+import flags.Flags;
+
+public class Manual implements Commands{
+	final String UNIX_MAN_PAGE = """
 	        \u001B[1mJSKIFF(1)\u001B[0m                    User Commands Reference                   \u001B[1mJSKIFF(1)\u001B[0m
 	        
 	        \u001B[36mNAME\u001B[0m
@@ -68,7 +70,15 @@ public class Manual {
 	        
 	        \u001B[2mJSKIFF v0.1.0                       June 2026                          JSKIFF(1)\u001B[0m
 	        """;
-	static void displayManualPage() {
-		System.out.println(UNIX_MAN_PAGE);
+	
+	@Override
+	public boolean run(Flags...flags) {
+		try{
+			System.out.println(UNIX_MAN_PAGE);
+			return true;
+		} catch (Exception e) {
+			System.out.println("There is some unexpected problem in Manual Command Class");
+			return false;
+		}
 	}
 }

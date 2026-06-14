@@ -3,9 +3,9 @@ package input;
 enum Flags {
 	HELP("-h","--help",false,false,21),
 	VERSION("-v","--version",false,false,22),
-	NAME("-n","--name",true,true,41),
-	DIRECTORY("-d","--directory",true,true,42),
-	WATCHABLE("-w","--watch",true,false,61);
+	WATCHABLE("-w","--watch",true,false,41),
+	NAME("-n","--name",true,true,61),
+	DIRECTORY("-d","--directory",true,true,62);
 	
 	private final String shortForm;
 	private final String fullForm;

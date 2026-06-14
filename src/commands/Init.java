@@ -1,16 +1,17 @@
 package commands;
 
-public class Init implements Runnable{
+import flags.Flags;
+
+public class Init implements Commands{
 	 
 	
 	public Init() {
 		
 	}
-	
-	@Override
-	public void run() {
-		// TODO Auto-generated method stub
-		
-	}
 
+	@Override
+	public boolean run(Flags...flags) {
+		// TODO Auto-generated method stub
+		return false;
+	}
 }

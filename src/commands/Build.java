@@ -1,5 +1,12 @@
 package commands;
 
-public class Build {
+import flags.Flags;
 
+public class Build implements Commands{
+
+	@Override
+	public boolean run(Flags...flags) {
+		// TODO Auto-generated method stub
+		return false;
+	}
 }

@@ -1,6 +1,6 @@
 package flags.global;
 
-public interface Help {
+public class Help implements FlagsGlobal{
 	final String SHORT_HELP = """
 	        \u001B[1mjSkiff - High-Performance Java 25 Build Orchestrator\u001B[0m
 	        
@@ -34,7 +34,9 @@ public interface Help {
 	        Documentation & Brand Integrity: GPLv3 (C) 2026 Achyuta Shrimate
 	        """;
 	
-	static void displayShortHelpMenu() {
+	@Override
+	public Boolean run() {
 		System.out.println(SHORT_HELP);
+		return null;
 	}
 }
